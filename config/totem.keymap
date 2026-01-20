@@ -17,6 +17,12 @@
 #define FUN 3
 #define UTIL 4
 
+// sticky key aka 'one-shot mods'
+&sk {
+    release-after-ms = <2000>;
+    quick-release;
+};
+
 #include "combos.dtsi"
 
 // navigation bindings for back/forward and prev tab/next tab
@@ -43,11 +49,7 @@
     usage-pages = <HID_USAGE_KEY HID_USAGE_CONSUMER>; // repeat all keys
 };
 
-// sticky key aka 'one-shot mods'
-&sk {
-    release-after-ms = <2000>;
-    quick-release;
-};
+
 
 // default layer-tap config
 &lt {
