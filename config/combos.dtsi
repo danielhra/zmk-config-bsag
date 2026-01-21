@@ -40,7 +40,7 @@ ZMK_COMBO(lt,    &kp LT,        LT1 LT4,     BASE NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(cut,   &kp LG(X),     LB3 LB1,     BASE NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(copy,  &kp LG(C),     LB3 LB2,     BASE NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(paste, &kp LG(V),     LB2 LB1,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(capswL, &sk LSHFT,   LM1 LM2,     BASE NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(capswL, &sk LSHFT,    LM1 LM3,     BASE NAV NUM, COMBO_TERM_FAST)
 
 // Right hand vertical combos
 // Between top and home row
@@ -61,6 +61,6 @@ ZMK_COMBO(rbkt,  &kp RBKT,      RT1 RT2 RT3,     BASE NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(rpar,  &kp RPAR,      RT1 RT2,     BASE NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(rbrc,  &kp RBRC,      RT3 RT2,     BASE NAV NUM, COMBO_TERM_FAST)
 ZMK_COMBO(gt,    &kp GT,        RT1 RT4,     BASE NAV NUM, COMBO_TERM_FAST)
-ZMK_COMBO(capswR, &sk LSHFT,   RM1 RM2,     BASE NAV NUM, COMBO_TERM_FAST)
+ZMK_COMBO(capswR, &sk LSHFT,    RM1 RM3,     BASE NAV NUM, COMBO_TERM_FAST)
 
 
